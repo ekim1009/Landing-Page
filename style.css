@@ -1,0 +1,158 @@
+.container{
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding:136px;
+}
+
+.quote{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+img{
+    border:2px solid lightblue;
+    border-radius:4px;
+    width:150px;
+    height:auto;
+    margin-right:70px;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    color:#1f2937;
+    font-size:48px;
+    font: style 700px;
+}
+
+figure {
+    display:inline-block;
+    margin:0;
+}
+
+figure img{
+    vertical-align:top;
+}
+
+figure figcaption {
+    text-align:center;
+    font-size:18px;
+    width:150px;
+}
+
+.name{
+    display:flex;
+    flex-direction:column;
+    font-size:25px;
+    font: style 700;
+    color:white;
+    margin-right:100px;
+    padding:0;
+}
+
+.top {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1f2937;
+}
+
+button{
+    color:#3882f6;
+    width:100px;
+    height:35px;
+    margin-bottom:20px;
+    border-radius:25px;
+}
+
+.button2{
+    color:#3882f6;
+    width:150px;
+    height:37px;
+    border-radius:25px;
+}
+
+.last{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+}
+
+.first{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:900px;
+}
+
+.end{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:#3882f6;
+    color:white;
+    margin:100px 300px;
+    gap:30px;
+    padding:30px;
+    
+}
+
+h1{
+    padding:0;
+    margin:10;
+}
+
+.signature{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.class{
+    background-color:#1f2937;
+    color:white;
+    display:flex;
+}
+
+.nav a {
+    list-style:none;
+    text-decoration:none;
+    font-size:24px;
+    color:white;
+}
+
+.nav{
+    list-style-type:none;
+    text-align:center;
+    margin:0;
+    padding:0;
+    background-color:#1F2937;
+    display:flex;
+}
+
+.nav li{
+    display:inline;
+    color:white;
+    font-size:24px;
+    padding-right:30px;
+}
+
+.sandt{
+    margin-right:700px;
+    margin-left:30px;
+}
+
+.footer{
+    background-color:#1F2937;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
